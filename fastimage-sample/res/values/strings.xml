@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_main_title">FastImage Example 1</string>
+    <string name="activity_main_by_codingfingers">CodingFingers.com</string>
+    <string name="app_name">FastImage Example 1</string>
+    <string name="clear_cache">Clear Cache</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.codingfingers.fastimage.examples.flicr.utils.SquareLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/list_photos_photo_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/tile"
+         />
+    
+    <TextView
+        android:id="@+id/list_photos_text_info"
+        style="@style/ProgressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+    
+    <ImageView
+        android:id="@+id/list_photos_thumbnail1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="9dp"
+        android:visibility="gone" />
+
+</com.codingfingers.fastimage.examples.flicr.utils.SquareLayout>

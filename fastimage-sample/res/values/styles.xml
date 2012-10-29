@@ -1,0 +1,42 @@
+<resources>
+
+    <style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar" />
+    <color name="White">#ffffff</color>
+    <color name="DarkGrey">#222222</color>
+    <color name="Transparent">#99000000</color>
+
+    
+    <style name="ShadowedBackground">
+        <item name="android:background">@drawable/background</item>
+    </style>
+
+    <style name="TitlePanel">
+    </style>
+    
+    <style name="ScreenTitle" >
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="ScreenSubTitle" >
+        <item name="android:textSize">9dp</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="WhiteProgressSpinner">
+        <item name="android:indeterminateDrawable">@drawable/progress_small</item>
+        <item name="android:minWidth">16dip</item>
+        <item name="android:maxWidth">16dip</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+    
+    <style name="ProgressText" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/DarkGrey</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    
+</resources>
