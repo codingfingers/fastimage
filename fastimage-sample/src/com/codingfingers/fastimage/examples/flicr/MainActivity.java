@@ -70,7 +70,7 @@ public class MainActivity extends Activity {
 			
 			try {
 				// create url
-				URI targetUrl = new URI("http://192.168.124.149/images/photos.rss");
+				URI targetUrl = new URI("http://api.flickr.com/services/feeds/photos_public.gne?format=rss2");
 				
 				// GET request
 				HttpClient client = new DefaultHttpClient();
@@ -138,7 +138,7 @@ public class MainActivity extends Activity {
 			// failure
 			else
 			{
-				Toast.makeText(MainActivity.this, "Unable to load photos", Toast.LENGTH_LONG).show();
+				Toast.makeText(MainActivity.this, "Unable to load photos ", Toast.LENGTH_LONG).show();
 			}
 			
 			super.onPostExecute(result);
